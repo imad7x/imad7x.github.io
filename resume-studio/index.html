@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resume Studio – CV Maker for Android</title>
+<meta name="description" content="Build a professional resume on your phone. 16 templates, import any old resume (PDF, Word or a photo), and save a perfect PDF.">
+<link rel="icon" href="img/icon-512.png">
+<style>
+  :root { --bg: #f4f5f7; --panel: #fff; --text: #14171f; --muted: #5b6270; --brand: #2563eb; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0e1014; --panel: #161920; --text: #e8eaee; --muted: #9198a5; --brand: #6b9bff; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
+  header { background: linear-gradient(120deg, #1d4ed8, #3b82f6 60%, #60a5fa); color: #fff; padding: 48px 20px 56px; }
+  .wrap { max-width: 980px; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: 16px; }
+  .brand img { width: 64px; height: 64px; border-radius: 16px; box-shadow: 0 6px 18px rgba(0, 0, 40, .25); }
+  h1 { margin: 0; font-size: clamp(30px, 6vw, 44px); line-height: 1.1; letter-spacing: -.02em; }
+  header p { font-size: 19px; max-width: 620px; opacity: .95; margin: 18px 0 0; }
+  .badge { display: inline-block; margin-top: 24px; padding: 10px 18px; border-radius: 12px; background: #fff; color: #1d4ed8;
+           font-weight: 700; text-decoration: none; }
+  main { padding: 36px 20px 60px; }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .f { background: var(--panel); border-radius: 16px; padding: 20px; }
+  .f h2 { margin: 0 0 6px; font-size: 17px; }
+  .f p { margin: 0; color: var(--muted); font-size: 15px; }
+  .shots { display: flex; gap: 14px; overflow-x: auto; padding: 28px 0 8px; scroll-snap-type: x mandatory; }
+  .shots img { width: 220px; flex: none; border-radius: 18px; box-shadow: 0 8px 24px rgba(0, 0, 0, .12); scroll-snap-align: start; }
+  footer { padding: 24px 20px 40px; color: var(--muted); font-size: 14px; }
+  footer a, main a { color: var(--brand); }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="brand"><img src="img/icon-512.png" alt=""><h1>Resume Studio</h1></div>
+  <p>Build a professional resume on your phone. Pick from 16 templates, import the resume you already have – PDF, Word or even a photo – and save a perfect PDF.</p>
+  <span class="badge">Coming soon to Google Play</span>
+</div></header>
+<main class="wrap">
+  <div class="features">
+    <div class="f"><h2>Import any resume</h2><p>PDF (also scanned), Word, OpenDocument, RTF, text, web pages and photos are read on your phone and rebuilt in any template.</p></div>
+    <div class="f"><h2>16 templates</h2><p>Modern, classic, minimal, creative and ATS-friendly designs. Switch any time; your content moves with you.</p></div>
+    <div class="f"><h2>Perfect PDFs</h2><p>Real-text PDFs that job portals can read. Save, share by email or WhatsApp, or print.</p></div>
+    <div class="f"><h2>Private</h2><p>No account and no sign-up. Your resumes stay on your phone.</p></div>
+  </div>
+  <div class="shots">
+    <img src="img/1-templates.png" alt="Choosing a template">
+    <img src="img/6-import.png" alt="An imported resume">
+    <img src="img/4-preview.png" alt="Live preview">
+    <img src="img/7-pdf.png" alt="Saving the PDF">
+  </div>
+</main>
+<footer class="wrap">
+  <a href="privacy.html">Privacy policy</a> · Support: <a href="mailto:imadh.ahmed@gmail.com">imadh.ahmed@gmail.com</a>
+</footer>
+</body>
+</html>
